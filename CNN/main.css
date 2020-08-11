@@ -1,0 +1,48 @@
+body{
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration : none;
+}
+
+.head_wrap{
+    width : 100%;
+    background-color: #0C0C0C;
+    height : 40px;
+    text-align: center;
+    position : fixed;
+    top : 0;
+    left : 0;
+
+}
+
+.header{
+    width : 1260px;
+    display : inline-block;
+}
+
+.logo {
+    width: 40px;
+    float : left;
+}
+
+.box{
+    float : left;
+    padding : 12px 8px;
+    color : lightgray;
+    transition-duration : 0.5s;
+    font-size : 14px;
+}
+.box:hover{
+    color : white;
+}
+
+.icon{
+    float : right;
+    color : white;
+    width : 40px;
+    height : 40px;
+    fill : white;
+}
