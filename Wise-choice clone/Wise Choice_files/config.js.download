@@ -1,0 +1,13 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyDIfqycQYViLdTltPYpe-sTPMm1XejeOig",
+  authDomain: "wisechoice-project.firebaseapp.com",
+  databaseURL: "https://wisechoice-project.firebaseio.com",
+  projectId: "wisechoice-project",
+  storageBucket: "wisechoice-project.appspot.com",
+  messagingSenderId: "1030554425789",
+  appId: "1:1030554425789:web:318ca7990ba758f8c5dad4",
+  measurementId: "G-YLP99HE4KD"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();

@@ -1,0 +1,86 @@
+var d = new Date();
+var t = d.getTime();
+var counter = t;
+
+//feedback
+
+document.getElementById("feedback-form").addEventListener("submit", (e) => {
+    var message = document.getElementById("feedback_message").value;
+    e.preventDefault();
+    createFeedback(message);
+    document.getElementById("feedback-form").reset();
+});
+
+function createFeedback(message) {
+    counter += 1;
+    var message = {
+        id: counter,
+        feedback: message
+    }
+    let db = firebase.database().ref("feedback/" + counter);
+    db.set(message)
+        .then(function () {
+            console.log("Mesaj trimis cu succes");
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Mesajul tău a fost trimis',
+                showConfirmButton: false,
+                timer: 1400
+              })
+        })
+        .catch(function (error) {
+            console.error("Eroare: ", error);
+            Swal.fire({
+                position: 'top-end',
+                icon: 'error',
+                title: 'A fost o problemă. Mesajul nu a fost trimis',
+                showConfirmButton: false,
+                timer: 2200
+              })
+        });
+}
+
+//newsletter
+
+document.getElementById("new-form").addEventListener("submit", (e) => {
+    var message = document.getElementById("email").value;
+    e.preventDefault();
+    createNewsletter(message);
+    document.getElementById("new-form").reset();
+});
+
+function createNewsletter(message) {
+    counter += 1;
+    var message = {
+        id: counter,
+        email: message
+    }
+    let db = firebase.database().ref("email/" + counter);
+    db.set(message)
+    .then(function () {
+        console.log("Mesaj trimis cu succes");
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Ai fost abonat cu succes.',
+            showConfirmButton: false,
+            timer: 1400
+          })
+    })
+    .catch(function (error) {
+        console.error("Eroare: ", error);
+        Swal.fire({
+            position: 'top-end',
+            icon: 'error',
+            title: 'A fost o problemă. Cu părere de rău nu ai fost abonat.',
+            showConfirmButton: false,
+            timer: 2200
+          })
+    });
+}
+
+function createPage(text) {
+        window.location.href = 'item.html' + '#' + text;
+  }
+  

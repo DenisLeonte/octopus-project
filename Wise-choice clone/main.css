@@ -1,0 +1,129 @@
+body{
+    margin : 0;
+    background-color : #faf9f7;
+    margin-top : 70px;
+}
+
+.text{
+    font-family : 'Roboto', sans-serif;
+    font-size : 14px;
+    color : #818181;
+    text-align : justify;
+    float :left;
+    width : 46%;
+    padding : 20px 20px;
+}
+
+p{
+    line-height: 24px;
+    margin-bottom : 10px;
+}
+
+h1{
+    font-family : 'Roboto',sans-serif;
+    font-size : 42px;
+    color : black;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #0072ce;
+}
+
+.header_wrapper{
+    width : 100%;
+    text-align : center;
+    background-color : white;
+    height : 70px;
+    position : fixed;
+    margin-top : -70px;
+}
+
+.header{
+    background-color: white;
+    width : 1135px;
+    height : 100%;
+    clear : right;
+    display : inline-block;
+}
+
+.but{
+    height : 70px;
+    width : 110px;
+    float : left;
+    border-width: 0;
+    background-color : white;
+    font-size : 14px;
+    border-radius: 0;
+    color : #818181;
+    transition-duration: 0.4s;
+}
+
+.but:hover{
+    background-color : #0072ce;
+    color : white;
+}
+
+.active{
+    background-color : #0072ce;
+    color : white;
+}
+
+.content_wrapper{
+    text-align : center;
+    width : 100%;
+}
+
+.content{
+    width : 1135px;
+    display : inline-block;
+    padding-top : 100px;
+}
+
+.spacer{
+    height : 200px;
+    width : 100%;
+}
+
+.box{
+    width : 360px;
+    height : 315px;
+    border-style : solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+    float : left;
+    margin : 0 8px;
+}
+
+.dot{
+    width : 60px;
+    height : 60px;
+    border-radius: 50%;
+    background-color : #0072ce;
+    display : table;
+    margin-bottom : 20px;
+}
+
+.num{
+    color : white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box_wrapper{
+    padding : 70px 40px;
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>BBC News</title>
+        <link rel = "stylesheet" type = "text/css" href = "home.css">
+        <link rel = "stylesheet" type = "text/css" href = "buttons.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    </head>
+    <body>
+		<div class = "content-wrapper">
+			<div class = "content">
+        		<div class = "wrapper">
+        		    <div class = "header">
+        		        <div class  = "logo_box">
+        		            <img src = "BBC_logo.png" class = "logo">
+        		        </div>
+        		            <img src = "sign_in_logo.jpg" class = "sign_in_logo">
+        		        <div class = "header_text" style = "padding-left : 0px; padding-right : 50px;">
+							<button class = "btn">Sign in</button>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Home</button>
+        		            <div class = "animated" id = "black"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">News</button>
+							<div class = "animated" id = "red"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Sport</button>
+							<div class = "animated" id = "yellow"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Reel</button>
+							<div class = "animated" id = "blue"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Worklife</button>
+							<div class = "animated" id = "darkblue"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Travel</button>
+							<div class = "animated" id = "darkgreen"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Future</button>
+							<div class = "animated" id = "verydarkblue"></div>
+        		        </div>
+						<div class = "brd"></div>
+        		        <div class = "header_text">
+							<button class = "btn">Culture</button>
+							<div class = "animated" id = "purple"></div>
+        		        </div>
+							<div class = "brd"></div>
+        		        <div class = "header_text">
+        		        	<button class = "dropbtn">More</button>
+							<img src = "smol_triangle.PNG" style = "float : left; margin-top : 3px">
+        		            <div class = "animated" id = "black2" style = ""></div>
+							<div class = "brd"></div>
+						</div>
+						<div class = "header_text">
+							<img src = "Search_bar.PNG" style = "margin : 4px 19px">
+        		        </div>
+        		    </div>
+        		</div>
+				
+				<div class = "title_div">
+					<h1 class = "title">NEWS</h1>
+				</div>
+				
+				<div class = "wrapper" style = "background-color : #bb1919; border-width: 0px;">
+					<div class = "header" style = "color : white; margin-left : 50px" >
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Home</button>
+							<div class = "animated active" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Coronavirus</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Video</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">World</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">UK</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Business</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Tech</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Science</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Stories</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Entertainment&Arts</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Health</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">World News TV</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">In Pictures</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">Reality Check</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+						<div class = "header_text">
+							<button class = "btn white" style = "margin : 10px 0; padding : 0px 15px">More</button>
+							<div class = "animated" style = "background-color : white"></div>
+        		        </div>
+						<div class = "brd" style = "border-color : rgb(187,47,52); height : calc(100% - 20px); margin-top : 10px"></div>
+						
+					</div>
+				</div>
+				
+				<div class = "first_section" style = "height : 260px; display: flex">
+					<div class = "wrapper" style = "border-width: 0px; display : flex;">
+						<div class = "section" style = "width : 55%;">
+							<div class = "text" style = "width : 30%; margin-left : 40px;">
+								<h1 style = "font-weight : bold; color : rgb(34,34,34); font-size : 27px">
+									Atlanta police shooting of black man condemned
+								</h1>
+								<p1 style = "color : black; opacity : 70%; text-align: justify">
+									The death of another African-American man during an arrest prompts protests and official criticism.
+								</p1>
+								
+								<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">29m</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">US & Canada</p1>
+								</div>
+								
+							</div> 
+							<img srcset="https://ichef.bbci.co.uk/news/240/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 240w, https://ichef.bbci.co.uk/news/380/cpsprodpb/17D17/production/_s12895579_mediaitem112895578.jpg 380w, https://ichef.bbci.co.uk/news/420/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 420w, https://ichef.bbci.co.uk/news/490/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 490w, https://ichef.bbci.co.uk/news/573/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 573w, https://ichef.bbci.co.uk/news/743/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 743w, https://ichef.bbci.co.uk/news/820/cpsprodpb/17D17/production/_112895579_mediaitem112895578.jpg 820w" style = " height : 260px; align : left; float : left; flex = 1; width : 500px; margin-top : 10px;">
+						</div>
+						<div class = "section" style = "margin-top : 10px; width : 20%; display : flex;">
+							<figure style = "margin : 0px 10px;">
+								<img src = "india_train.PNG" style = "margin : 0 auto; display : block; width : 100%;">
+								<figcaption>
+									<h1 style = "font-size : 15px;">
+										India to use train carriages as coronavirus wards
+									</h1>
+									<p1 style = "font-size : 14px; text-align : justify; opacity : 70%">
+										New emergency plans are announced in Delhi to cope with a surge in Covid-19 cases.
+									</p1>
+									<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">7h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">India</p1>
+								</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class = "section" style = "margin-top : 10px; width : 20%; display : flex;">
+							<figure style = "margin : 0px 10px;">
+								<img src = "shushant.PNG" style = "margin : 0 auto; display : block; width : 100%;">
+								<figcaption>
+									<h1 style = "font-size : 15px;">
+										Bollywood actor Sushant Singh Rajput dies at 34
+									</h1>
+									<p1 style = "font-size : 14px; text-align : justify; opacity : 70%">
+										The film and television actor was found dead in his apartment in the city of Mumbai, police said.
+									</p1>
+									<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">6h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">India</p1>
+								</div>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div style = "height : 50px; width : 100%; padding-left : 50px;">
+					<img src = "big_triangle.PNG" style = " float : left;">
+					<div style = "margin-top : 30px;">
+						<p1>
+							Atlanta restaurant set on fire over<br> fatal shooting
+						</p1>
+					</div>
+				</div>
+				<div class = "second-section"  style = "height : 300px; display: flex">
+					<div class = "section" style = "margin-top : 10px; width : 20%; display : flex; margin-left : 40px">
+						<figure style = "margin : 0px 10px;">
+							<img src = "Africa.PNG" style = "margin : 0 auto; display : block; width : 100%;">
+							<figcaption>
+								<h1 style = "font-size : 15px;">
+									South Africa leader's shame over murders of women
+								</h1>
+								<p1 style = "font-size : 14px; text-align : justify; opacity : 70%">
+									Cyril Ramaphosa's remarks come after several femicides amid the lifting of coronavirus restrictions.
+								</p1>
+								<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">7h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Africa</p1>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class = "section" style = "margin-top : 10px; width : 20%; display : flex;">
+						<figure style = "margin : 0px 10px;">
+							<img src = "gold.PNG" style = "margin : 0 auto; display : block; width : 100%;">
+							<figcaption>
+								<h1 style = "">
+									Swiss search for owner of gold haul left on train
+								</h1>
+								<p1 style = "font-size : 14px; text-align : justify; opacity : 70%">
+									The hoard, worth around £152,000, was found left behind on a train in Switzerland last October.
+								</p1>
+								<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">4h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Europe</p1>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class = "section" style = "margin-top : 10px; width : 20%; display : flex;">
+						<figure style = "margin : 0px 10px;">
+							<img src = "peoples.PNG" style = "margin : 0 auto; display : block; width : 100%;">
+							<figcaption>
+								<h1 style = "font-size : 15px;">
+									France's ancient burial brotherhood
+								</h1>
+								<p1 style = "font-size : 14px; text-align : justify; opacity : 70%">
+									The Charitable Brothers of Saint-Eloi were founded in the 12th Century to bury plague victims.
+								</p1>
+								<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">20h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Europe</p1>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class = "section" style = "margin-top : 10px; width : 18%; display : flex; position : relative;">
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 0%; bottom : 100%;">
+							<a>
+								<h1>UN ‘appalled’ by twin jihadist attacks in Nigeria</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">4m</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Africa</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 25%; bottom : 75%;">
+							<a>
+								<h1>Violence flares at illegal 'quarantine raves'</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">4h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Manchester</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block;top : 50%; bottom : 50%;">
+							<a>
+								<h1>UK PM urges 'confidence' as shops reopen</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">3h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Business</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 75%; bottom : 25%;">
+							<a>
+								<h1>Tanker truck explosion kills 19 people in China</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">11h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">China</p1>
+								</div>
+						</div>
+					</div>
+					<div class = "section" style = "margin-top : 10px; width : 18%; display : flex; position : relative;">
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 0%; bottom : 100%;">
+							<a>
+								<h1>Polish leader likens LGBT 'ideology' to communism</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">9h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Europe</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 25%; bottom : 75%;">
+							<a>
+								<h1>Statue of 'racist' journalist vandalised in Milan</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">3h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Europe</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block;top : 50%; bottom : 50%;">
+							<a>
+								<h1>Sri Lanka holds coronavirus <br>proof test vote</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">3h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Asia</p1>
+								</div>
+						</div>
+						<div style = "height : 25%; position : absolute; margin : 0px auto; display : inline-block; top : 75%; bottom : 25%;">
+							<a>
+								<h1>Scouts 'should learn' from <br>Baden-Powell failings</h1>
+							</a>
+							<div style = "height : 14px; display : flex; margin-top : 4px;">
+									<img src = "clock.PNG" style = "width : 14px;">
+									<div style = "padding:0 3px; height : 14px; border-style : solid; border-width: 0 1px 0 0; border-color : lightgray">
+										<p1 style = "font-size : 13px; opacity : 80%;">7h</p1>
+									</div>
+									<p1 style = "margin-left : 3px;	font-size : 13px;">Dorset</p1>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

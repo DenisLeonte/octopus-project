@@ -1,0 +1,160 @@
+body{
+    margin : 0px;
+    font-family : Helvetica, Arial, sans-serif;
+    font-size: 14px;
+	overflow-x: hidden;
+}
+
+.content-wrapper{
+	width : 100%;
+}
+
+.content{
+	width : 1366px;
+	clear : right;
+	margin : auto;
+}
+
+.wrapper{
+    width : 100%;
+    border-style: solid;
+    border-width : 0 0 1px 0;
+    border-color: lightgrey;
+}
+
+.header{
+    width : 96%;
+	clear : right;
+    height : 35px;
+    margin :auto;
+}
+
+.logo{
+    width : 78px;
+	display : block;
+}
+
+.logo_box{
+    border-style: solid;
+    border-width : 0 1px 0 0;
+    border-color: lightgrey;
+	padding : 7px 16px 6px 16px;
+	float : left;
+	display : table-cell;
+	vertical-align : middle;
+}
+
+.header .header_text {
+    float : left;
+    text-align : center;
+    font-weight : bold;
+	position : relative;
+	height : calc(100% - 20px);
+        
+}
+
+.sign_in_logo{
+    height : 32px;
+    float : left;
+    padding : 2px;
+}
+
+.animated{
+    opacity: 0%;
+    height : 4px;
+	margin : 0 0 -19px 0;
+    width : calc(100% + 2px);
+    float : bottom;
+	transition-duration : 0.0s;
+	position : absolute;
+	bottom : 0;
+}
+
+.header_text:hover > .animated{
+	opacity : 100%;
+}
+
+.dropbtn{
+	border-width : 0px;
+	background-color : transparent;
+	font-weight : bold;
+	padding : 10px 44px 10px 19px;
+	margin : auto 0px;
+	outline : none;
+	float : left;
+}
+
+.btn{
+	
+	border-width : 0px;
+	background-color : transparent;
+	font-weight : bold;
+	padding :10px 19px;
+	margin : auto 0px;
+	outline : none;
+}
+
+.btn:active{
+	border-style : outset;
+}
+
+.dropbtn:active{
+	border-style : outset;
+}
+
+.brd{
+	height : 35px; 
+	border-style : solid; 
+	border-width: 0 1px 0 0; 
+	border-color : lightgray; 
+	width : 1px; 
+	float : left;
+}
+
+.title_div{
+	background-color : rgb(187,25,25);
+	width : 100%;
+	height: 40px;
+	padding : 10px 0px 10px 40px;
+	color : white;
+	font-weight : 900;
+	font: Helvetica;
+}
+
+.title_div h1{
+	font-weight: 100;
+	font-size : 40px;
+}
+
+.title{
+	margin-top : -3px;
+}
+
+.white {
+	color : white;
+	font-weight : 100;
+}
+
+.active{
+	opacity : 100%
+}
+
+.section{
+	height : 260px;
+	display : flex;
+	flex = 1;
+}
+
+.text{
+	padding : 10px;
+	clear : right;
+}
+
+.text p1 h1{
+	float : left;
+	clear : right;
+}
+
+.section h1{
+	font-size : 15px;
+}
