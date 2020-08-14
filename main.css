@@ -1,0 +1,83 @@
+@font-face {
+    font-family: CNN_P;
+    src: url(https://edition.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-regular.woff2);
+}
+
+@font-face {
+    font-family: CNN_L;
+    src: url(https://edition.i.cdn.cnn.com/.a/fonts/cnn/3.9.0/cnnsans-thin.woff2)
+}
+
+body {
+    margin: 0;
+    font-family: CNN_P, Helvetica, Arial;
+}
+
+.box a {
+    text-decoration: none;
+    color: lightgray;
+    transition-duration: 0.5s;
+}
+
+.head_wrap {
+    width: 100%;
+    background-color: #0C0C0C;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.header {
+    width: 1260px;
+    display: inline-block;
+}
+
+.logo {
+    width: 40px;
+    float: left;
+}
+
+.box {
+    float: left;
+    padding: 10px 8px;
+    font-size: 14px;
+}
+
+.box a:hover {
+    color: white;
+}
+
+.icon {
+    float: right;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 0 3.4px;
+}
+
+.cont_wrap {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.content {
+    display: inline-block;
+    width: 1100px;
+    text-align: left;
+}
+
+.title {
+    font-family: CNN_L;
+    font-size: 3.466rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.headline {
+    font-size: 2rem;
+    font-size : 300;
+}
